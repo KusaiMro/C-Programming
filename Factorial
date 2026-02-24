@@ -9,12 +9,22 @@ int main(){
         printf("Factorial is not possible.");
     }else{
          for(i=n;i>=1;i--){
-             
             fact=fact*i;
-             
          }
          printf("Factorial is:%lld",fact);
     }
    
  return 0;   
 }
+
+//Using while loop:
+    if(n<0){
+        printf("Factorial is not possible.");
+    }else{
+        i=n;
+         while(i>=1){
+             fact=fact*i;
+             i--; 
+         }
+        printf("Factorial is:%lld",fact); 
+    }
