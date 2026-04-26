@@ -17,3 +17,15 @@ int main()
   
     return 0;
 }
+
+//using while loop
+    while(i<=n)
+    {
+        printf("%d ",a);
+        next=a+b;
+        a=b;
+        b=next;
+        
+        i++;
+    }
+    
