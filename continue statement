@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+    int count=0,age;
+    for(int i=1;i<=7;i++)
+    {
+        printf("Enter the age of 7 persons:");
+        scanf("%d",&age); 
+        
+        if(age<30 || age>40)
+        {
+        continue;
+        }
+        count++;
+    }
+    
+    printf("The persons numbers are 30-40: %d",count);
+    
+    return 0;
+}
